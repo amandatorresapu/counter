@@ -1,0 +1,13 @@
+<form action="/create_record" method="post">
+  <p>
+    Pet's Name:
+    <input type="text" name="pet_name" />
+  </p>
+  <p>
+    Pet's Favorite Food:
+    <input type="text" name="favorite_food" />
+  </p>
+  <input type="submit" value="Submit" />
+</form>
+
+<p>{{session["username"]}} {{session["email"]}}</p>

@@ -1,0 +1,14 @@
+<form action="/counter" method="post">
+  <h1>counter</h1>
+  <p>
+    click
+    <input type="button" name="count" value="1" />
+  </p>
+  <p>
+    reset
+    <input type="button" name="reset" value="reset" />
+  </p>
+  <input type="hidden" name="hidden_input" value="Hello from hidden!" />
+</form>
+
+<p>{{session["username"]}} {{session["email"]}} {{session["hidden_input"]}}</p>
